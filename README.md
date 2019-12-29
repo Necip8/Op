@@ -9,10 +9,9 @@ You have to get away from the conventional loop programming and portion the calc
 It takes a while to create 2500 spheres...
 
 This demo runs with two inner for loops to calculate the gravitation from each sphere. The result: 1-2 FPS
+
 https://www.babylonjs-playground.com/##WT2WKV
 
 That demo runs with my Op class which slices the for loops. This time we have a FPS from 3-13!
+
 https://www.babylonjs-playground.com/#G1TITX
-
-
-https://ncpup.wordpress.com/2019/12/29/how-to-handle-slow-animations/
