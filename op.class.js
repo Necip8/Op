@@ -140,3 +140,42 @@ do {
     finished &= opCondition.run();
     finished &= opLoopInLoop.run();
 } while(!finished);
+
+
+
+/* TEST OUTPUT:
+opValueOnly
+1
+opBlock
+1
+2
+opCondition
+1
+2
+opLoopInLoop
+_cbLoopInLoop - value: 1
+opLoopSimple
+_log.value: 3
+opLoopSimple
+_log.value: 2
+opLoopSimple
+_log.value: 1
+opLoopSimple
+opLoopInLoop
+_cbLoopInLoop - value: 2
+opLoopSimple
+_log.value: 3
+opLoopSimple
+_log.value: 2
+opLoopSimple
+_log.value: 1
+opLoopSimple
+opLoopInLoop
+_cbLoopInLoop - value: 3
+opLoopSimple
+_log.value: 3
+opLoopSimple
+_log.value: 2
+opLoopSimple
+_log.value: 1
+*/
