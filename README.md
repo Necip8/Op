@@ -15,3 +15,10 @@ https://www.babylonjs-playground.com/##WT2WKV
 That demo runs with my Op class which slices the for loops. This time we have a FPS from 3-13!
 
 https://www.babylonjs-playground.com/#G1TITX
+
+
+
+Improvement proposals
+---------------------
+
+- Give the operation a period of time delta to work through his loops.
